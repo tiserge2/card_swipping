@@ -1,0 +1,46 @@
+    #container {
+    display: grid;
+    grid-template-columns:  20% 20% 20%
+    20%  20%;
+    }
+
+    .box {
+    width: 180px;
+    height: 250px;
+    }
+
+    .state1 {
+    /*   background-color: red; */
+    margin-top: 100px;
+    margin-left: 150px;
+    transition: background 3s;
+    }
+
+    .state2 {
+    /*   background-color: pink; */
+    margin-top: 50px;
+    margin-left: 50px;
+    z-index: 98;
+    transition: background 3s;
+    }
+
+    .state3 {
+    /*   background-color: gray; */
+    z-index: 99;
+    transition: background 3s;
+    }
+
+    .state4 {
+    /*   background-color: green; */
+    margin-top: 50px;
+    margin-left: -50px;
+    z-index: 98;
+    transition: background 3s;
+    }
+
+    .state5 {
+    /*   background-color: lightgray; */
+    margin-top: 100px;
+    margin-left: -150px;
+    transition: background 3s;
+    }
