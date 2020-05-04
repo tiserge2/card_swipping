@@ -1,7 +1,6 @@
-    var start = 0;
-    var end   = 2;
     var colorArrayPosition = [];
     var colorArray = ['pink', 'green', 'blue', 'yellow', 'red', 'black'];
+    
     //constructing the cardControllerArray
     for(var i = 0; i < colorArray.length; i++ ) {
         colorArrayPosition.push(i);
